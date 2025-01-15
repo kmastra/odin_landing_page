@@ -3,7 +3,8 @@ body {
 }
 
 .header,
-.section-one {
+.section-one,
+.footer {
     background-color: #1F2937;
 }
 
@@ -26,7 +27,7 @@ body {
 }
 
 button,
-.container-two {
+.background-color {
     background-color: #3882F6;
 }
 
@@ -34,15 +35,21 @@ button,
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding: 40px;
 }
 
 .section-three {
     background-color: #E5E7EB;
+    padding: 120px 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: 1;
     color: #1F2937;
 }
 
@@ -94,4 +101,84 @@ button {
     font-size: 16px;
     margin: 0;
     border-radius: 12px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-placeholder-sm {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0px 120px;
+    padding-bottom: 60px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 4px;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.quote-name {
+    text-align: end;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+.section-four {
+    padding: 60px 120px;
+}
+
+.background-color {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    border-radius: 3%;
+    gap: 150px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+}
+
+.text {
+    color: white;
+}
+
+.border-btn {
+    border: 2px solid white;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
